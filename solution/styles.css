@@ -1,0 +1,38 @@
+.red-block {
+  background-color: red;
+}
+
+.green-block {
+  background-color: green;
+}
+
+.blue-block {
+  background-color: blue;
+}
+
+.container > div {
+  height: 100px;
+  width: 100px;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 303px;
+  margin: 0 auto;
+}
+
+div.wide {
+  width: 201px;
+}
+
+div.really-wide {
+  width: 302px;
+}
+
+div.tall {
+  height: 200px;
+}
